@@ -12,8 +12,12 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+
 # Add Lienol's Packages
-git clone --depth=1 https://github.com/SuLingGG/openwrt-package
+git clone --depth=1 https://github.com/Lienol/openwrt-package
+
+# Add Lienol's Packages
+#git clone --depth=1 https://github.com/SuLingGG/openwrt-package
 
 # Add mentohust & luci-app-mentohust.
 git clone --depth=1 https://github.com/BoringCat/luci-app-mentohust
