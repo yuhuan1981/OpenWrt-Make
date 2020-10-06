@@ -11,10 +11,12 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.11.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
 # Add Lienol's Packages
 git clone --depth=1 https://github.com/Lienol/openwrt-package
+
+git clone --depth=1 https://github.com/xiaorouji/openwrt-package
 
 # Add Lienol's Packages
 #git clone --depth=1 https://github.com/SuLingGG/openwrt-package
@@ -28,7 +30,7 @@ git clone --depth=1 https://github.com/tty228/luci-app-serverchan
 
 # Add OpenClash
 git clone --depth=1 -b master https://github.com/vernesong/OpenClash
-git clone --depth=1  https://github.com/xiaorouji/openwrt-package/tree/master/lienol/luci-app-passwall
+
 
 
 # Add luci-app-onliner (need luci-app-nlbwmon)
