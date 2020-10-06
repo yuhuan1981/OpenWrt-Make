@@ -28,6 +28,8 @@ git clone --depth=1 https://github.com/tty228/luci-app-serverchan
 
 # Add OpenClash
 git clone --depth=1 -b master https://github.com/vernesong/OpenClash
+git clone --depth=1  https://github.com/xiaorouji/openwrt-package/tree/master/lienol/luci-app-passwall
+
 
 # Add luci-app-onliner (need luci-app-nlbwmon)
 git clone --depth=1 https://github.com/rufengsuixing/luci-app-onliner
